@@ -1,27 +1,3 @@
-"""
-VisionHome: CV-Powered Smart Home Control System
-=================================================
-Computer Vision Course — BYOP Project
-
-Controls simulated home appliances using hand gestures and facial events
-detected in real-time from a webcam feed.
-
-Appliances Controlled:
-  - Light        : Toggle with open palm
-  - Fan (3 speeds): Finger count (1, 2, or 3 fingers)
-  - Door         : Head tilt left (unlock) / right (lock)
-  - Security Alarm: Double blink arms/disarms
-
-Requirements:
-  pip install opencv-python mediapipe numpy
-
-Usage:
-  python vision_home.py
-  python vision_home.py --camera 1         # external USB webcam
-  python vision_home.py --quality high     # higher accuracy, slower
-  python vision_home.py --no-calibrate     # skip head calibration
-"""
-
 import cv2
 import mediapipe as mp
 import numpy as np
