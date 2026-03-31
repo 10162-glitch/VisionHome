@@ -22,7 +22,6 @@
 - [Screenshots](#screenshots)
 - [Limitations](#limitations)
 - [Future Scope](#future-scope)
-- [Author](#author)
 
 ---
 
@@ -252,12 +251,6 @@ The system measures the horizontal offset of the nose tip landmark relative to t
 - [ ] Custom gesture training with TensorFlow Lite
 - [ ] Voice command fusion
 - [ ] Mobile app companion
-
----
-
-
-
-
 
 ---
 
